@@ -1,6 +1,13 @@
-# 基于SSM的驾校预约管理系统1
+# 基于SSM的驾校预约管理系统
 
-#### 介绍
+## 获取方式
+
+扫描下方，回复 关键词“**驾校1**” ，以获取完整版的项目代码。
+
+![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
+## 1、项目介绍
+
 基于SSM的驾校预约管理系统1拥有三种角色，分别为管理员、教练、学员，具体功能如下：
 
 - 管理员：学员管理、教练管理、驾校车辆管理、预约管理、取消预约管理、公告管理
@@ -11,35 +18,106 @@
 
 
 
-#### 软件架构
-软件架构说明
+## 2、项目技术
+
+后端框架：SSM（Spring、SpringMVC、Mybatis）
+
+前端框架：Bootstrap、vue、jsp、css、JavaScript、JQuery
+
+前后端分离项目
+
+## 3、开发环境
+
+- JAVA版本：JDK1.8，其它版本理论上可以
+- IDE类型：IDEA、Eclipse、Myeclipse都可以。推荐IDEA与Eclipse
+- tomcat版本：Tomcat 7.x、8.x、9.x、10.x版本均可
+- 数据库版本：MySql 5.x和8都可以
+- maven版本：无限制
+- 硬件环境：Windows 或者 Mac OS
 
 
-#### 安装教程
+## 4、功能介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+### 4.1 登录
 
-#### 使用说明
+![前端登录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223433.jpg)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+教练和学员可以通过此界面登录至前端系统
 
-#### 参与贡献
+### 4.2 学员模块
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+![学员个人中心](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223517.jpg)
+
+![学员查询教练信息1](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223523.jpg)
+
+![学员查看教练信息2](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223529.jpg)
+
+![学员预约教练](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223536.jpg)
+
+![学员后台-预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223541.jpg)
+
+![学员后台-取消预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223546.jpg)
+
+- 查看教练信息：学员可以通过教练账号和姓名多条件筛选教练、查询教练详细信息
+
+- 预约教练：学员可以预约教练，预约界面可以填写时间和科目（详情见视频）
+
+- 预约和取消预约：学员可以在自己后台查看预约信息和取消预约
+
+- 注册及个人中心：学员可以进行注册和修改个人信息
+
+- 评价教练：学员可以评价教练
 
 
-#### 特技
+### 4.3 教练模块
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+![教练后台-教练信息查询](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223853.jpg)
+
+![教练后台预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223855.jpg)
+
+![教练后台取消预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514223858.jpg)
+
+- 教练信息查询：教练可以通过账号和姓名多条件查询其他教练信息详情
+
+- 预约管理：教练可以通过预约编号查询学员预约信息详情
+
+- 取消预约管理：教练可以取消学员的预约申请，以及查询取消预约记录
+
+
+### 4.4 管理员模块
+
+![管理员-驾校车辆管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224054.jpg)
+
+![管理员-驾校公告管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224058.jpg)
+
+![管理员-驾校教练管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224100.jpg)
+
+![管理员-学员管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224103.jpg)
+
+![管理员-预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224108.jpg)
+
+![管理员-取消预约管理](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224111.jpg)
+
+- 教练管理：管理员可以通过账号和姓名筛选教练信息，并能够增加、查看、修改、删除教练，还能查看教练评价
+
+- 学员管理：管理员可以通过账号、姓名、性别筛选学员信息，并能够增加、查看、修改、删除学员
+
+- 驾校车辆管理：管理员可以通过车牌号筛选车辆，并能够增加、查看、修改、删除车辆
+
+- 预约管理：管理员可以通过预约编号筛选学员预约记录信息，并能够查看、修改、删除记录
+
+- 取消预约管理：管理员可以通过预约编号和教练账号筛选取消预约记录信息，并能够查看、修改、删除记录
+
+- 公告管理：管理员可以通过标题查询公告，并能够增加、查看、修改、删除公告
+
+
+### 4.4 文章目录
+
+![文章目录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224647.jpg)
+
+## 5、获取方式
+
+扫描下方，回复 关键词“**驾校1**” ，以获取完整版的项目代码。
+
+![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
+
