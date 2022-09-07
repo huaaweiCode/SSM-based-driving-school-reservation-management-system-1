@@ -1,10 +1,6 @@
 # 基于SSM的驾校预约管理系统
 
-## 获取方式
 
-扫描下方，回复 关键词“**驾校1**” ，以获取完整版的项目代码。
-
-![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
 
 ## 1、项目介绍
 
@@ -114,10 +110,4 @@
 ### 4.4 文章目录
 
 ![文章目录](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/20220514224647.jpg)
-
-## 5、获取方式
-
-扫描下方，回复 关键词“**驾校1**” ，以获取完整版的项目代码。
-
-![image-20220509000010316](https://project-images-1256969109.cos.ap-chongqing.myqcloud.com/Typora-Images/202205281253739.png)
 
